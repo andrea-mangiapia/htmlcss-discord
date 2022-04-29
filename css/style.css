@@ -1,0 +1,186 @@
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* DEBUG */
+.section-full-box {
+    /*TEST*/
+    background-color: green;
+    height: 700px;
+    border: 2px dashed black;
+}
+
+/* COMMON */
+.container {
+    width: 70%;
+    margin: auto;
+}
+.flex-container {
+     display: flex;
+ }
+
+.lightgray {
+    background-color: lightgray;
+}
+
+.btn-small-white {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 7px 12px;
+    border: 1px white;
+    border-radius: 15px;
+
+}
+
+.btn-white {
+    background-color: white;
+}
+
+/* HEADER */
+/* Header Top */
+.header-top {
+    padding: 20px 0;
+    background-color: #255ee9;
+}
+.navigation-area {
+    align-items: center;
+    font-weight: 700;
+}
+.logo, nav, .login {
+    padding: 5px;
+}
+/* Logo */
+.logo {
+    width: 20%;
+}
+/* Nav */
+nav {
+    width: 60%;
+}
+.menu {
+    list-style-type: none;
+    justify-content: center;
+}
+.menu li {
+    padding: 0 10px;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+/* Login */
+.login {
+    width: 20%;
+    text-align: right;
+}
+/* END Header Top*/
+
+/* Header Bottom*/
+.header-bottom {
+    background-color: blue;
+    padding: 40px 0;
+}
+.jumbotron-text {
+    background-color: palevioletred;
+    width: 55%;
+    margin: auto;
+    
+    /*TEST*/
+    height: 400px;
+    border: 2px dashed black;
+}
+/* END Header Bottom*/
+
+/*MAIN*/
+section {
+    padding: 40px 0;
+}
+.col-img {
+    background-color: dodgerblue ;
+    width: 60%;
+    
+    /*TEST*/
+    height: 500px;
+    border: 2px dashed black;
+}
+.col-text {
+    background-color: pink ;
+    width: 40%;
+    
+    /*TEST*/
+    height: 500px;
+    border: 2px dashed black;
+}
+/* END MAIN*/
+
+/*FOOTER*/
+/*Footer Top*/
+footer {
+    background-color: #23272a;
+}
+.footer-top {
+    padding: 10px 0 40px 0;
+    /* TEST */
+    border-bottom: 2px solid white;
+}
+.footer-main-colums {
+
+    /*TEST*/
+    border: 2px dashed black;
+
+}
+.footer-contact {
+    background-color: lightcoral;
+    width: 30%;
+
+    /*TEST*/
+    height: 550px;
+    border: 2px dashed black;
+}
+.footer-menu {
+    background-color: green;
+    width: 70%;
+    display: flex;
+
+    /*TEST*/
+    height: 550px;
+    border: 2px dashed black;
+}
+.col-footer {
+    background-color: cadetblue;
+    width: 25%;
+
+    /*TEST*/
+    height: 550px;
+    border: 2px dashed white;
+}
+/*END Footer Top*/
+
+/*Footer Bottom*/
+.footer-bottom {
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+}
+.content-footer-bottom {
+    justify-content: space-between;
+    align-items: center;
+
+    /*TEST*/
+    background-color: aquamarine;
+    height: 70px;
+}
+.col-footer-bottom {
+    padding: 5px 7px;
+
+    /*TEST*/
+    background-color: pink;
+    border: 2px dashed black;
+}
