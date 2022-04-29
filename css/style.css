@@ -7,16 +7,11 @@
 
 body {
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 1.6;
+    
 }
 
 /* DEBUG */
-.section-full-box {
-    /*TEST*/
-    background-color: green;
-    height: 700px;
-    border: 2px dashed black;
-}
+
 
 /* COMMON */
 .container {
@@ -55,16 +50,42 @@ body {
     background-color: black;
     color: white;
 }
+.btn-lightblue {
+    background-color: #7289da;
+    color: white;
+}
 h1 {
     font-size: 45px;
     padding-bottom: 2vw;
 }
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 2vw;
+}
+h3 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 2vw;
+}
+
 p {
     font-size: 18px;
+    line-height: 1.6;
 }
 
 img {
     width: 100%;
+}
+.img-stars {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.section-btn-cta {
+    padding: 20px 0;
+    justify-content: center;
 }
 
 /* HEADER */
@@ -120,31 +141,20 @@ nav {
     width: 55%;
 
 }
-.section-btn-cta {
-    padding: 20px 0;
-    justify-content: center;
-}
 /* END Header Bottom*/
 
 /*MAIN*/
 section {
-    padding: 40px 0;
+    padding: 100px 0;
 }
 .col-img {
-    background-color: dodgerblue ;
-    width: 60%;
-    
-    /*TEST*/
-    height: 500px;
-    border: 2px dashed black;
+    width: 65%;
 }
 .col-text {
-    background-color: pink ;
-    width: 40%;
-    
-    /*TEST*/
-    height: 500px;
-    border: 2px dashed black;
+    width: 35%;
+}
+.section-full-box {
+    text-align: center;
 }
 /* END MAIN*/
 
