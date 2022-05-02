@@ -64,12 +64,14 @@ h1 {
 h2 {
     font-size: 40px;
     line-height: 1.2;
-    margin-bottom: 2vw;
+    margin: 2vw 0;
 }
 h3 {
     font-size: 30px;
     line-height: 1.2;
     margin-bottom: 2vw;
+    margin: 0 auto;
+
 }
 p {
     font-size: 18px;
@@ -108,7 +110,7 @@ img {
 /* Header Top */
 .header-top {
     padding: 20px 0;
-    background-color: #5865f2;
+    background-color: #255EE9;
 }
 .navigation-area {
     align-items: center;
@@ -121,6 +123,9 @@ img {
 .logo {
     width: 20%;
 }
+ .logo img {
+     height: 45px;
+ }
 /* Nav */
 nav {
     width: 60%;
@@ -169,6 +174,21 @@ section {
 }
 .section-full-box {
     text-align: center;
+}
+.back-stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: con              tain;
+    padding-top: 40px;
+
+}
+.wave {
+    background-image: url('../img/wave.svg');
+    height: 99px;
+    filter: opacity(0.17);
+}
+.wave.updown {
+    transform: rotate(180deg);
 }
 /* END MAIN*/
 
